@@ -1,4 +1,4 @@
-export default function getStudentIdsSum(arr) {
-  return arr.reduce((acc, student) => acc + student.id, 0);
+export default function getStudentIdsSum(stud_arr) {
+  return stud_arr.reduce((acc, student) => acc + student.id, 0);
 }
 
